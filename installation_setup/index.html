@@ -9,18 +9,22 @@
       
       
       
+        <link rel="prev" href="../introduction/">
       
       
-      <link rel="icon" href="/assets/favicon.ico">
+        <link rel="next" href="../user_guide/">
+      
+      
+      <link rel="icon" href="../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
     
     
       
-        <title>MLOps Project</title>
+        <title>Installation & Setup - MLOps Project</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
       
       
 
@@ -39,9 +43,9 @@
       
     
     
-      <link rel="stylesheet" href="/overrides/main.css">
+      <link rel="stylesheet" href="../overrides/main.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -59,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#installation-setup" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -71,9 +80,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="MLOps Project" class="md-header__button md-logo" aria-label="MLOps Project" data-md-component="logo">
+    <a href=".." title="MLOps Project" class="md-header__button md-logo" aria-label="MLOps Project" data-md-component="logo">
       
-  <img src="/assets/logo.png" alt="logo">
+  <img src="../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -90,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Installation & Setup
             
           </span>
         </div>
@@ -165,9 +174,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="MLOps Project" class="md-nav__button md-logo" aria-label="MLOps Project" data-md-component="logo">
+    <a href=".." title="MLOps Project" class="md-nav__button md-logo" aria-label="MLOps Project" data-md-component="logo">
       
-  <img src="/assets/logo.png" alt="logo">
+  <img src="../assets/logo.png" alt="logo">
 
     </a>
     MLOps Project
@@ -182,7 +191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/introduction/" class="md-nav__link">
+      <a href="../introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -199,10 +208,19 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/installation_setup/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -211,6 +229,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -222,7 +241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/user_guide/" class="md-nav__link">
+      <a href="../user_guide/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -242,7 +261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developer_documentation/" class="md-nav__link">
+      <a href="../developer_documentation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -272,6 +291,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -283,8 +304,56 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+<h1 id="installation-setup">Installation &amp; Setup<a class="headerlink" href="#installation-setup" title="Permanent link">&para;</a></h1>
+<ol>
+<li><strong>Download the repository</strong><ul>
+<li>Go to <a href="https://github.com/allisterk2703/mlops-project">mlops-project</a>.</li>
+<li>Click on "Code", then "Download ZIP"<strong>.</strong></li>
+<li>Extract the ZIP file to your desired location.</li>
+</ul>
+</li>
+<li><strong>Open the project in VS Code</strong><ul>
+<li>Open the extracted folder in <em>*</em>*VS Code.</li>
+<li>Open a terminal: Press <code>Control ^</code> + <code>Shift ⇧</code> + <code>&lt;</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Set up the virtual environment</strong></p>
+<p>Run the following commands in the terminal:</p>
+<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv<span class="w">  </span><span class="c1"># Create a virtual environment</span>
+<span class="nb">source</span><span class="w"> </span>.venv/bin/activate<span class="w">  </span><span class="c1"># Activate it</span>
+pip<span class="w"> </span>install<span class="w"> </span>hatch<span class="w">  </span><span class="c1"># Install Hatch for environment management</span>
+hatch<span class="w"> </span>env<span class="w"> </span>create<span class="w">  </span><span class="c1"># Create the environment with Hatch</span>
+pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.<span class="w">  </span><span class="c1"># Install project dependencies</span>
+</code></pre></div>
+</li>
+<li>
+<p><strong>Create a <code>.env</code> file</strong></p>
+<p>At the root of the project, create a <code>.env</code> file and add the following:</p>
+<div class="highlight"><pre><span></span><code><span class="nv">AWS_ACCESS_KEY</span><span class="o">=</span>&lt;YOUR_AWS_ACCESS_KEY&gt;
+<span class="nv">AWS_SECRET_KEY</span><span class="o">=</span>&lt;YOUR_AWS_SECRET_KEY&gt;
+<span class="nv">AWS_REGION</span><span class="o">=</span>&lt;YOUR_AWS_REGION&gt;
+<span class="nv">S3_BUCKET_NAME</span><span class="o">=</span>&lt;YOUR_S3_BUCKET_NAME&gt;
+</code></pre></div>
+</li>
+</ol>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -318,10 +387,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": ["navigation.tracking"], "search": "/assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tracking"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
       
     
   </body>
